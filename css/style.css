@@ -1235,14 +1235,15 @@
 
 	#nav
 	{
-		position: absolute;
+		position: fixed;
 		top: 0;
 		left: 0;
 		width: 100%;
 		text-align: center;
-		padding: 1.5em 0 1.5em 0;
+		padding: 0.75em 0 0.75em 0;
 		z-index: 1;
 		overflow: hidden;
+		background: none repeat scroll 0 0 #2b252c;
 	}
 	
 		#nav > ul
@@ -1662,3 +1663,4 @@
 .dance {
 	font-weight:bold;
 }
+
