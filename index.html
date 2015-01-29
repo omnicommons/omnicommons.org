@@ -32,41 +32,8 @@
 				<!-- Inner -->
 					<div class="inner">
 						<header>
-							<span>
-							<script>
-							var end = new Date('01/28/2015 11:59 PM');
-
-							    var _second = 1000;
-							    var _minute = _second * 60;
-							    var _hour = _minute * 60;
-							    var _day = _hour * 24;
-							    var timer;
-
-							    function showRemaining() {
-								var now = new Date();
-								var distance = end - now;
-								if (distance < 0) {
-
-								    clearInterval(timer);
-								    document.getElementById('countdown').innerHTML = 'EXPIRED!';
-
-								    return;
-								}
-								var days = Math.floor(distance / _day);
-								var hours = Math.floor((distance % _day) / _hour);
-								var minutes = Math.floor((distance % _hour) / _minute);
-								var seconds = Math.floor((distance % _minute) / _second);
-
-								document.getElementById('countdown').innerHTML = days + 'days ';
-								document.getElementById('countdown').innerHTML += hours + 'hrs ';
-								document.getElementById('countdown').innerHTML += minutes + 'mins ';
-								document.getElementById('countdown').innerHTML += seconds + 'secs';
-							    }
-
-							    timer = setInterval(showRemaining, 1000);
-							</script>
-							<h1><a href="https://omnicommons.org/donate">FUNDRAISER ENDS IN:<div id="countdown"></div></a></h1><br/>
-							</span>
+							<h1><a href="https://omnicommons.org/donate">Thank you! We raised $80,000!</br>
+							Next, we buy the building.</a></h1><br/>
 							<iframe src="https://www.indiegogo.com/project/open-the-omni-commons-for-all-of-oakland/embedded/9094356" width="222px" height="445px" frameborder="0" scrolling="no"></iframe>
 							<br/><br/>
 							<h1><a href="index.html" id="logo"><span id="header_logo"><img src="images/omni_commons_logo_swirl.png" /></span><br/>Omni Commons</a></h1>
