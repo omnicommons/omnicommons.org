@@ -1659,3 +1659,41 @@
 #contribute article p {
 	text-align:center;
 }
+
+.callout {
+	position: absolute;
+	top: 30px;
+	z-index: 100;
+	right: 0;
+	width: 100px;
+	padding: 10px;
+	height: 100px;
+	 -webkit-transform: rotate(11deg);
+			-moz-transform: rotate(11deg);
+				-o-transform: rotate(11deg);
+			 -ms-transform: rotate(11deg);
+					 transform: rotate(11deg);
+	-webkit-transition: all 50ms ease-out;
+		 -moz-transition: all 50ms ease-out;
+			-ms-transition: all 50ms ease-out;
+			 -o-transition: all 50ms ease-out;
+					transition: all 50ms ease-out;
+}
+
+.callout:hover {
+	width:110px;
+	height: 110px;
+	padding: 5px;
+	-webkit-transform: rotate(0deg);
+		 -moz-transform: rotate(0deg);
+			 -o-transform: rotate(0deg);
+			-ms-transform: rotate(0deg);
+					transform: rotate(0deg);
+}
+
+.callout a {border:none; text-decoration: none;}
+
+.callout img {
+	width:100%;
+	height: auto;
+}
