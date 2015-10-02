@@ -2,3 +2,4 @@ User-agent: *
 Disallow: /lists/
 Disallow: /mailman/
 Disallow: /pipermail/
+Disallow: /wiki/Event:*
