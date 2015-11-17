@@ -1,7 +1,8 @@
 ul.bulletlist {
     list-style-type: disc;
-    list-style-position: inside;
+    list-style-position: outside;
     list-style-image: none;
+    margin-left: 25px;
 }
 
 ul.bulletlist li a {
