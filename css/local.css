@@ -3,3 +3,9 @@ ul.bulletlist {
     list-style-position: inside;
     list-style-image: none;
 }
+
+ul.bulletlist li a {
+    font-weight: bold;
+    text-decoration: none;
+    border: 0px solid white;
+}
