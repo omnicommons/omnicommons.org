@@ -1,3 +1,7 @@
+body {
+    overflow-x: hidden;
+}
+
 ul.bulletlist {
     list-style-type: disc;
     list-style-position: outside;
