@@ -10,3 +10,9 @@ ul.bulletlist li a {
     text-decoration: none;
     border: 0px solid white;
 }
+
+#about article p a {
+    font-weight: bold;
+    text-decoration: none;
+    border: 0px solid white;
+}
