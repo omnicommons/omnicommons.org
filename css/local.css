@@ -20,3 +20,20 @@ ul.bulletlist li a {
     text-decoration: none;
     border: 0px solid white;
 }
+.special p, .special h2 {
+    max-width: 600px;
+    margin-left:auto;
+    margin-right:auto;
+    padding-left:10px;
+    padding-right:30px;
+}
+.special ul {
+    max-width: 550px;
+    margin-left:auto;
+    margin-right:auto;
+    padding-left:10px;
+    padding-right:10px;
+}
+.special p a {
+    color:#0000ff;
+}
