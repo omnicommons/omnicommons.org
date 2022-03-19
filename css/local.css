@@ -1,39 +1,42 @@
 body {
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 ul.bulletlist {
-    list-style-type: disc;
-    list-style-position: outside;
-    list-style-image: none;
-    margin-left: 25px;
+  list-style-type: disc;
+  list-style-position: outside;
+  list-style-image: none;
+  margin-left: 25px;
 }
 
 ul.bulletlist li a {
-    font-weight: bold;
-    text-decoration: none;
-    border: 0px solid white;
+  font-weight: bold;
+  text-decoration: none;
+  border: 0px solid white;
 }
 
 #about article p a {
-    font-weight: bold;
-    text-decoration: none;
-    border: 0px solid white;
+  font-weight: bold;
+  text-decoration: none;
+  border: 0px solid white;
 }
+
 .special p, .special h2 {
-    max-width: 600px;
-    margin-left:auto;
-    margin-right:auto;
-    padding-left:10px;
-    padding-right:30px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-right: 30px;
 }
+
 .special ul {
-    max-width: 550px;
-    margin-left:auto;
-    margin-right:auto;
-    padding-left:10px;
-    padding-right:10px;
+  max-width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
 }
+
 .special p a, a {
-    color:#0000ff;
+  color: #0000ff;
 }

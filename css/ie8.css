@@ -8,54 +8,41 @@
 /* Basic                                                                         */
 /*********************************************************************************/
 
-	a
-	{
-		border-bottom: solid 1px #ddd;
-	}
-	
-	hr
-	{
-		border-top: solid 1px #777;
-		border-bottom: solid 1px #777;
-	}
+a {
+	border-bottom: solid 1px #ddd;
+}
 
-	.timestamp
-	{
-		color: #777;
-	}
+hr {
+	border-top: solid 1px #777;
+	border-bottom: solid 1px #777;
+}
 
-	/* Lists */
+.timestamp {
+	color: #777;
+}
 
-		ul.divided
-		{
-		}
-		
-			ul.divided li
-			{
-				border-top: solid 1px #777;
-			}
+/* Lists */
 
-		ul.menu
-		{
-		}
-		
-			ul.menu li
-			{
-				border-left: solid 1px #777;
-			}
+ul.divided li {
+	border-top: solid 1px #777;
+}
 
-		ul.icons
-		{
-			background: #333;
-			-ms-behavior: url('css/PIE.htc');
-		}
+ul.menu li {
+	border-left: solid 1px #777;
+}
 
-	/* Buttons */
-		
-		.button
-		{
-			-ms-behavior: url('css/PIE.htc');
-		}
+ul.icons {
+	background: #333;
+	-ms-behavior: url('css/PIE.htc');
+	behavior: url('css/PIE.htc');
+}
+
+/* Buttons */
+
+.button {
+	-ms-behavior: url('css/PIE.htc');
+	behavior: url('css/PIE.htc');
+}
 
 /*********************************************************************************/
 /* Icons                                                                         */
@@ -63,139 +50,107 @@
 /* Licensed under the SIL OFL 1.1 (font), MIT (CSS)                              */
 /*********************************************************************************/
 
-	.icon
-	{
-	}
-
-		.icon.circled
-		{
-			-ms-behavior: url('css/PIE.htc');
-		}
+.icon.circled {
+	-ms-behavior: url('css/PIE.htc');
+	behavior: url('css/PIE.htc');
+}
 
 /*********************************************************************************/
 /* Header                                                                        */
 /*********************************************************************************/
 
-	#header
-	{
-		-ms-behavior: url('css/backgroundsize.min.htc');
-	}
+#header {
+	-ms-behavior: url('css/backgroundsize.min.htc');
+	behavior: url('css/PIE.htc');
+}
 
 /*********************************************************************************/
 /* Nav                                                                           */
 /*********************************************************************************/
 
-	#nav
-	{
-	}
-	
-		#nav > ul
-		{
-		}
-		
-			#nav > ul:before,
-			#nav > ul:after
-			{
-				border-top: solid 1px #777;
-				border-bottom: solid 1px #777;
-			}
+#nav>ul:before,
+#nav>ul:after {
+	border-top: solid 1px #777;
+	border-bottom: solid 1px #777;
+}
 
-			#nav > ul > li
-			{
-				-ms-behavior: url('css/PIE.htc');
-			}
+#nav>ul>li {
+	-ms-behavior: url('css/PIE.htc');
+	behavior: url('css/PIE.htc');
+}
 
-				#nav > ul > li.active
-				{
-					border-color: #999;
-				}
+#nav>ul>li.active {
+	border-color: #999;
+}
 
-	.dropotron
-	{
-		background: #fff;
-		-ms-behavior: url('css/PIE.htc');
-	}
+.dropotron {
+	background: #fff;
+	-ms-behavior: url('css/PIE.htc');
+	behavior: url('css/PIE.htc');
+}
 
-		.dropotron li
-		{
-			border-color: #eee;
-			padding-right: 1em;
-			color: #5b5b5b;
-		}
+.dropotron li {
+	border-color: #eee;
+	padding-right: 1em;
+	color: #5b5b5b;
+}
 
-		.dropotron-level-0
-		{
-			margin-top: 1em;
-		}
-	
+.dropotron-level-0 {
+	margin-top: 1em;
+}
+
 /*********************************************************************************/
 /* Carousel                                                                      */
 /*********************************************************************************/
 
-	.carousel
-	{
-	}
+.carousel .forward,
+.carousel .backward {
+	border-radius: 100%;
+	background-color: #483949;
+	width: 7em;
+	height: 7em;
+	margin-top: -3.5em;
+	border-radius: 100%;
+	-ms-behavior: url('css/PIE.htc');
+	behavior: url('css/PIE.htc');
+}
 
-		.carousel .forward,
-		.carousel .backward
-		{
-			border-radius: 100%;
-			background-color: #483949;
-			width: 7em;
-			height: 7em;
-			margin-top: -3.5em;
-			border-radius: 100%;
-			-ms-behavior: url('css/PIE.htc');
-		}
+.carousel .forward {
+	right: -3.5em;
+}
 
-			.carousel .forward
-			{
-				right: -3.5em;
-			}
+.carousel .backward {
+	left: -3.5em;
+}
 
-			.carousel .backward
-			{
-				left: -3.5em;
-			}
-		
-			.carousel .forward:before,
-			.carousel .backward:before
-			{
-				display: none;
-			}
-			
+.carousel .forward:before,
+.carousel .backward:before {
+	display: none;
+}
+
 /*********************************************************************************/
 /* Footer                                                                        */
 /*********************************************************************************/
 
-	#footer
-	{
-	}
-	
-		#footer ul.divided li,
-		#footer ul.menu li,
-		#footer hr
-		{
-			border-color: #3B373C;
-		}
-	
-		#footer .icons
-		{
-			background: #2F2930;
-		}
-	
-		#footer .copyright
-		{
-			color: #777;
-		}
+#footer ul.divided li,
+#footer ul.menu li,
+#footer hr {
+	border-color: #3B373C;
+}
 
-			#footer .copyright a
-			{
-				color: #aaa;
-				border: 0;
-			}
+#footer .icons {
+	background: #2F2930;
+}
 
-				#footer .copyright a:hover
-				{
-					color: #ccc;
-				}
+#footer .copyright {
+	color: #777;
+}
+
+#footer .copyright a {
+	color: #aaa;
+	border: 0;
+}
+
+#footer .copyright a:hover {
+	color: #ccc;
+}
