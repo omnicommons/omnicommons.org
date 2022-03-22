@@ -8,28 +8,24 @@
 /* Basic                                                                         */
 /*********************************************************************************/
 
-	body,input,textarea,select
-	{
-		font-size: 14pt;
-		line-height: 1.75em;
-	}
-	
+body, input, textarea, select {
+	font-size: 14pt;
+	line-height: 1.75em;
+}
+
 /*********************************************************************************/
 /* Carousel                                                                      */
 /*********************************************************************************/
 
-	.carousel
-	{
-		padding: 1.5em 0 1.5em 0;
-	}
-	
-		.carousel .reel
-		{
-			padding: 0 1.5em 0 1.5em;
-		}
+.carousel {
+	padding: 1.5em 0 1.5em 0;
+}
 
-		.carousel article
-		{
-			width: 18em;
-			margin: 0 1.25em 0 0;
-		}
+.carousel .reel {
+	padding: 0 1.5em 0 1.5em;
+}
+
+.carousel article {
+	width: 18em;
+	margin: 0 1.25em 0 0;
+}
