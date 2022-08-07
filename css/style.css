@@ -209,6 +209,23 @@ header .byline {
 	margin-bottom: 2em;
 }
 
+.headby {
+    max-width:750px;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+.headdiv, .headdiv a, .headdiv a:hover {
+    color:#FFBBC9;
+    background-color:#432E35;
+    padding:5px;
+    text-decoration: none;
+    margin: 0px 0px auto auto;
+    padding: 10px;
+    display: inline-block;
+    border: 0px solid black;
+}
+
 footer {
 	margin: 2.5em 0 0 0;
 }
