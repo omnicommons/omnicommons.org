@@ -210,9 +210,10 @@ header .byline {
 }
 
 .headby {
-    max-width:750px;
+    max-width:700px;
     margin-right:auto;
     margin-left:auto;
+    text-align:left;
 }
 
 .headdiv, .headdiv a, .headdiv a:hover {
